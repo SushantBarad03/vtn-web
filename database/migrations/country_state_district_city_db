@@ -1,0 +1,869 @@
+https://en.wikipedia.org/wiki/List_of_districts_in_India
+
+https://en.wikipedia.org/wiki/Gujarat
+
+countries
+
+id
+country_name
+status
+craeted_at
+updated_at
+
+states
+
+id
+country_id
+state_name
+status
+created_at
+updated_at
+
+
+// Country
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Andhra Pradesh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Arunachal Pradesh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Assam');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Bihar');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Chhattisgarh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Goa');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Gujarat');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Haryana');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Himachal Pradesh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Jharkhand');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Karnataka');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Kerala');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Madhya Pradesh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Maharashtra');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Manipur');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Meghalaya');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Mizoram');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Nagaland');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Odisha');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Punjab');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Rajasthan');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Sikkim');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Tamil Nadu');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Telangana');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Tripura');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Uttar Pradesh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Uttarakhand');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','West Bengal');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Andaman and Nicobar Islands');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Chandigarh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Dadra and Nagar Haveli');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Jammu and Kashmir');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Ladakh');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Lakshadweep');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Delhi');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Puducherry');
+INSERT INTO `states`(`country_id`, `state_name`) VALUES ('101','Daman and Diu');
+
+// Distict 
+
+// Andhra Pradesh District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Anantapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Chittoor');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','East Godavari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Guntur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Krishna');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Kurnool');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Nellore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Prakasam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Srikakulam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Visakhapatnam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Vizianagaram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','West Godavari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('1','Kadapa');
+
+// Arunachal Pradesh District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Anjaw');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Changlang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Lower Dibang Valley');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','East Kameng');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Lohit');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','East Siang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Kamle');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Kurung Kumey');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Kra Daadi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Lower Subansiri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Longding');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Lepa Rada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Lower Siang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Namsai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Papum Pare');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Pakke Kessang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Siang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Shi-Yomi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Tawang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Tirap');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Upper Subansiri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Dibang Valley');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','Upper Siang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','West Kameng');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('2','West Siang');
+
+// Assam District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Baksa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Bongaigaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Barpeta');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Biswanath');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Cachar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Charaideo');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Chirang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Dibrugarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Dhemaji');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Darrang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Dhubri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Golaghat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Goalpara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Hailakandi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Hojai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Jorhat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Karbi Anglong');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Kokrajhar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Kamrup Metropolitan');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Karimganj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Kamrup');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Lakhimpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Morigaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Majuli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Nalbari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Dima Hasao');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Nagaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','South Salmara-Mankachar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Sonitpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Sivasagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Tinsukia');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','Udalguri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('3','West Karbi Anglong');
+
+// Bihar District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Araria');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Aurangabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Arwal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Banka');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Begusarai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Bhagalpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Bhojpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Buxar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Darbhanga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','East Champaran');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Gaya');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Gopalganj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Jamui');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Jehanabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Khagaria');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Kishanganj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Kaimur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Katihar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Lakhisarai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Madhubani');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Munger');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Madhepura');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Muzaffarpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Nalanda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Nawada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Patna');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Purnia');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Rohtas');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Saharsa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Samastipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Sheohar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Sheikhpura');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Saran');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Sitamarhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Supaul');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','Vaishali');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('4','West Champaran');
+
+// Chhattisgarh District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Bastar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Bilaspur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Balod');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Baloda Bazar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Balrampur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Bemetara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Dantewada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Dhamtari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Durg');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Gariaband');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Jashpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Janjgir Champa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Korba');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Kondagaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Koriya');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Kanker');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Kabirdham');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Mahasamund');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Mungeli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Narayanpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Raigarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Rajnandgaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Raipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Surguja');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Surajpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Sukma');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('5','Bijapur');
+
+// Goa District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('6','North Goa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('6','South Goa');
+
+// Gujrat District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Ahmedabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Amreli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Anand');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Aravalli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Banaskantha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Bharuch');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Botad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Bhavnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Chhota Udaipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Dahod');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Devbhoomi Dwarka');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Dang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Gandhinagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Gir Somnath');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Jamnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Junagadh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Kachchh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Kheda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Mehsana');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Morbi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Mahisagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Narmada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Navsari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Patan');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Panchmahal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Porbandar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Rajkot');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Sabarkantha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Surendranagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Surat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Tapi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Vadodara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('7','Valsad');
+
+// Haryana District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Ambala');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Bhiwani');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Charkhi Dadri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Faridabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Fatehabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Gurugram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Hisar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Jhajjar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Jind');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Karnal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Kaithal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Kurukshetra');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Mahendragarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Nuh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Panchkula');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Panipat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Palwal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Rewari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Rohtak');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Sirsa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Sonipat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('8','Yamunanagar');
+
+// Himachal Pradesh District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Bilaspur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Chamba');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Hamirpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Kangra');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Kinnaur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Kullu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Mandi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Shimla');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Sirmaur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Solan');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Una');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('9','Lahaul and Spiti');
+
+// Jharkhand District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Bokaro');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Chatra');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Deoghar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Dhanbad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Dumka');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Purbi Singhbhum');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Garhwa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Giridih');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Godda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Gumla');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Hazaribagh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Jamtara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Khunti');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Koderma');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Latehar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Lohardaga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Pakur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Palamu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Ranchi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Ramgarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Sahebganj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Simdega');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','Saraikela Kharsawan');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('10','East Singhbhum');
+
+// Karnataka District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Bidar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Belgaum');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Bijapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Bagalkot');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Bellary');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Bangalore Urban');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Bangalore Rural');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Chamarajanagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Chikballapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Chikmagalur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Chitradurga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Davanagere');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Dharwad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Dakshina Kannada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Gadag');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Gulbarga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Hassan');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Haveri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Kodagu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Kolar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Koppal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Mandya');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Mysore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Raichur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Ramanagara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Shimoga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Tumkur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Udupi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Uttara Kannada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('11','Yadgir');
+
+// Kerala District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Alappuzha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Ernakulam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Idukki');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Kannur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Kasaragod');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Kollam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Kottayam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Kozhikode');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Malappuram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Palakkad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Pathanamthitta');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Thiruvananthapuram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Thrissur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('12','Wayanad');
+
+// Madhya Pradesh District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Bhopal district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Raisen district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Rajgarh district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Sehore district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Vidisha district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Morena district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Sheopur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Bhind district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Gwalior district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Ashoknagar district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Shivpuri district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Datia district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Guna district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Alirajpur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Barwani district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Burhanpur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Indore district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Dhar district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Jhabua district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Khandwa district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Khargone district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Balaghat district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Chhindwara district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Jabalpur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Katni district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Mandla district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Narsinghpur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Seoni district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Dindori district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Betul district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Harda district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Hoshangabad district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Rewa district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Satna district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Sidhi district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Singrauli district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Chhatarpur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Damoh district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Panna district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Sagar district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Tikamgarh district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Niwari district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Anuppur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Shahdol district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Umaria district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Agar Malwa district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Dewas district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Mandsaur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Neemuch district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Ratlam district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Shajapur district');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('13','Ujjain district');
+
+// Maharashtra District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Ahmednagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Akola');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Amravati');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Aurangabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Bhandara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Beed');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Buldhana');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Chandrapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Dhule');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Gadchiroli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Gondia');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Hingoli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Jalgaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Jalna');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Kolhapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Latur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Mumbai City');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Mumbai Suburban');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Nandurbar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Nanded');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Nagpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Nashik');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Osmanabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Parbhani');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Palghar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Pune');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Raigad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Ratnagiri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Sindhudurg');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Sangli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Solapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Satara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Thane');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Wardha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Washim');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('14','Yavatmal');
+
+// Manipur District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Bishnupur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Thoubal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Imphal East');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Imphal West');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Senapati');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Ukhrul');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Chandel');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Churachandpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Tamenglong');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Jiribam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Kangpokpi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Kakching');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Tengnoupal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Kamjong');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Noney');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('15','Pherzawl');
+
+// Meghalaya District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','East Garo Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','Jaintia Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','East Khasi Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','North Garo Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','Ri-Bhoi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','South Garo Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','South West Garo Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','South West Khasi Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','West Garo Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','West Jaintia Hills');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('16','West Khasi Hills');
+	
+// Mizoram District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Aizawl');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Kolasib');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Lawngtlai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Lunglei');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Mamit');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Saiha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Serchhip');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Champhai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Hnahthial');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Khawzawl');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('17','Saitual');
+
+// Nagaland
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Dimapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Kiphire');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Kohima');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Longleng');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Mokokchung');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Mon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Peren');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Phek');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Tuensang');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Wokha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('18','Zunheboto');
+
+// Odisha
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Angul');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Boudh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Bhadrak');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Balangir');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Bargarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Balasore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Cuttack');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Debagarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Dhenkanal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Ganjam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Gajapati');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Jharsuguda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Jajpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Jagatsinghapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Khordha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Kendujhar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Kalahandi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Kandhamal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Koraput');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Kendrapara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Malkangiri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Mayurbhanj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Nabarangpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Nuapada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Nayagarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Puri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Rayagada');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Sambalpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Subarnapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('19','Sundargarh');
+
+// Punjab District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Amritsar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Bathinda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Barnala');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Fazilka');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Firozpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Faridkot');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Fatehgarh Sahib');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Gurdaspur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Hoshiarpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Jalandhar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Kapurthala');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Ludhiana');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Mansa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Moga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Muktsar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Patiala');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Pathankot');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Shahid Bhagat Singh Nagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Rupnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Sangrur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Sahibzada Ajit Singh Nagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('20','Tarn Taran');
+
+// Rajasthan District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Ajmer');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Alwar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Bikaner');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Barmer');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Banswara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Bharatpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Baran');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Bundi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Bhilwara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Churu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Chittorgarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Dausa');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Dholpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Dungarpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Ganganagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Hanumangarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Jhunjhunu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Jalor');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Jodhpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Jaipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Jaisalmer');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Jhalawar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Karauli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Kota');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Nagaur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Pali');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Pratapgarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Rajsamand');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Sikar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Sawai Madhopur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Sirohi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Tonk');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('21','Udaipur');
+
+// Sikkim District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('22','East');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('22','North');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('22','South');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('22','West');
+
+// Tamil Nadu District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Ariyalur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Chengalpattu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Chennai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Coimbatore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Cuddalore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Dharmapuri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Dindigul');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Erode');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Kallakurichi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Kanchipuram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Kanyakumari');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Karur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Krishnagiri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Madurai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Nagapattinam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Namakkal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Nilgiris');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Perambalur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Pudukkottai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Ramanathapuram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Ranipet');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Salem');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Sivaganga');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tenkasi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Thanjavur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Theni');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Thoothukudi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tiruchirappalli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tirunelveli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tirupathur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tiruppur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tiruvallur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tiruvannamalai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Tiruvarur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Vellore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Viluppuram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('23','Virudhunagar');
+
+
+// Telangana District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Adilabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Bhadradri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Kothagudem');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Hyderabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Jagtial');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Jangaon');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Jayashankar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Bhoopalpally');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Jogulamba Gadwal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Kamareddy');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Karimnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Khammam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Komaram Bheem');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Asifabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Mahabubabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Mahabubnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Mancherial');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Medak');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Medchal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Nagarkurnool');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Nalgonda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Nirmal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Nizamabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Peddapalli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Rajanna Sircilla');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Rangareddy');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Sangareddy');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Siddipet');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Suryapet');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Vikarabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Wanaparthy');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Warangal (Rural)');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Warangal (Urban)');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Yadadri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('24','Bhuvanagiri');
+
+
+// Tripura District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','Dhalai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','Gomati');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','Khowai');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','North Tripura');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','Sepahijala');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','South Tripura');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','Unakoti');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('25','West Tripura');
+
+
+// Uttar Pradesh District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Agra');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Aligarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Allahabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Ambedkar Nagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Amethi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Amroha');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Auraiya');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Azamgarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Baghpat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Bahraich');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Ballia');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Balrampur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Banda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Barabanki');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Bareilly');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Basti');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Bhadohi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Bijnor');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Budaun');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Bulandshahr');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Chandauli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Chitrakoot');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Deoria');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Etah');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Etawah');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Faizabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Farrukhabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Fatehpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Firozabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Gautam Buddha Nagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Ghaziabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Ghazipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Gonda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Gorakhpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Hamirpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Hardoi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Hathras');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Jhansi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Jalaun');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Jaunpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Kanpur Dehat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Kannauj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Kanpur Nagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Kasganj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Kaushambi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Kushinagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Lalitpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Lakhimpur Kheri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Lucknow');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Mau');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Meerut');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Maharajganj');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Mahoba');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Mirzapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Moradabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Mainpuri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Mathura');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Muzaffarnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Pilibhit');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Hapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Pratapgarh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Rampur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Rae Bareli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Saharanpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Shamli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Sitapur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Shahjahanpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Sonbhadra');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Siddharthnagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Shravasti');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Unnao');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('26','Varanasi');
+
+// Uttarakhand District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Almora');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Bangeshwar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Chamoli');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Champawat');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Dehradun');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Haridwar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Nainital');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Garhwal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Pithoragadh');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Rudraprayag');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Tehri Garhwal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Udham Singh Nagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('27','Uttarkashi');
+
+// West Bengal District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Alipurduar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Birbhum');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Bankura');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Purba Bardhaman');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Darjeeling');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Dakshin Dinajpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Hooghly');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Howrah');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Jalpaiguri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Jhargram');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Kalimpong');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Cooch Behar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Kolkata');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Malda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Paschim Bardhaman');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Paschim Medinipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','North Twenty Four Parganas');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Purba Medinipur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','South Twenty Four Parganas');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Purulia');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Uttar Dinajpur');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Murshidabad');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('28','Nadia');
+
+// Andaman and Nicobar Islands
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('29','North and Middle Andaman');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('29','South Andaman');
+
+// Chandigarh
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('30','Chandigarh');
+
+// Dadra and Nagar Haveli
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('31','Dadra and Nagar Haveli');
+
+// Jammu and Kashmir
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Anantnag');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Badgam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Bandipore');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Baramula');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Doda');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Ganderbal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Jammu');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Kulgam');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Kathua');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Kupwara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Kishtwar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Punch');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Pulwama');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Rajouri');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Ramban');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Reasi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Samba');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Shupiyan');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Srinagar');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('32','Udhampur'); 
+
+// Ladakh
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('33','Kargil');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('33','Leh ladakh');
+
+//Lakshadweep
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('34','Lakshadweep');
+
+// Delhi District
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','Central Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','East Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','North Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','North East Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','North Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','North West Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','South Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','South East Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','Shahdara');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','South West Delhi');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('35','West Delhi');
+
+// Puducherry
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('36','Karaikal');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('36','Mahe');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('36','Punducherry');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('36','Yanam');
+
+// Daman and Diu
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('37','Daman');
+INSERT INTO `district`(`state_id`, `district_name`) VALUES ('37','Diu');
